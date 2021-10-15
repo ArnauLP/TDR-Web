@@ -1,0 +1,28 @@
+
+@media (max-width: 600px) {
+    .effect-2 {
+        display: none;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .home-text {
+        position: relative;
+        display: inline-block;
+        left: 25%;
+        margin-top: -10px;
+    }
+
+    .home-img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-info a {
+        position: relative;
+        right: 29%;
+
+    }
+}
