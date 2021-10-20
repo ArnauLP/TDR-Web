@@ -292,7 +292,7 @@ img {
   100% {
     transform: translatex(0);
   }
-
+    
   50% {
     transform: translatex(40px);
   }
@@ -314,6 +314,13 @@ img {
   0% {
     transform: scale(1);
   }
+}
+
+.home-text .btn-1 {
+  font-family: "Merriweather", serif;
+}
+.about-info a {
+  font-family: "Merriweather", serif;
 }
 
 .section-title {
@@ -473,7 +480,8 @@ button:hover {
   color: var(--skin-color-5);
 }
 
-.nav-links #selectLine {  /* Not working */
+.nav-links #selectLine {
+  /* Not working */
   position: absolute;
   left: 0;
   height: 4px;

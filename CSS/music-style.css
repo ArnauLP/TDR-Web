@@ -426,3 +426,27 @@ user agent stylesheet div {
         top: 80px;
     }
 }
+
+
+
+
+
+@media (max-width: 800px) {
+    .main-section-2 {
+        position: relative;
+        top: -400px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .img-channel-logo #img-logo-m {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .img-channel-logo #img-logo-m {
+        display: none;
+    }
+}
